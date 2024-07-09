@@ -1,0 +1,36 @@
+.navbar-ku {
+    background-color: #EFE5DA;
+    .navbar-brand {
+        color: #23120b;
+    }
+    
+    .navbar-container {
+        margin: 0;
+        padding: 0;
+    
+        .search-input{
+            border-radius: 10px;
+            background-color: #F5EFE9;
+            &::placeholder {
+                background-color: #F5EFE9;
+                opacity: 1;
+            }
+        }
+    
+        @media (min-width: 992px) {
+            .search-input {
+              max-width: 300px; 
+            }
+          }
+    }
+    .dropdown-menu{
+        position: absolute;
+        z-index: 10;
+    }
+    .btn-login,.btn-register{
+        color: #23120b;
+        &:hover{
+            color: #884123;
+        }
+    }
+}

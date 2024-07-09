@@ -1,0 +1,37 @@
+.navbar-ku {
+  background-color: #EFE5DA;
+}
+.navbar-ku .navbar-brand {
+  color: #23120b;
+}
+.navbar-ku .navbar-container {
+  margin: 0;
+  padding: 0;
+}
+.navbar-ku .navbar-container .search-input {
+  border-radius: 10px;
+  background-color: #F5EFE9;
+}
+.navbar-ku .navbar-container .search-input::-moz-placeholder {
+  background-color: #F5EFE9;
+  opacity: 1;
+}
+.navbar-ku .navbar-container .search-input::placeholder {
+  background-color: #F5EFE9;
+  opacity: 1;
+}
+@media (min-width: 992px) {
+  .navbar-ku .navbar-container .search-input {
+    max-width: 300px;
+  }
+}
+.navbar-ku .dropdown-menu {
+  position: absolute;
+  z-index: 10;
+}
+.navbar-ku .btn-login, .navbar-ku .btn-register {
+  color: #23120b;
+}
+.navbar-ku .btn-login:hover, .navbar-ku .btn-register:hover {
+  color: #884123;
+}/*# sourceMappingURL=navbar.css.map */

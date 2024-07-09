@@ -1,0 +1,32 @@
+.detail-container {
+  background-color: #fcf8f5;
+  min-width: 100px;
+  margin-left: -10px;
+}
+.detail-container .foto-container {
+  border: 2px solid #f4e8da;
+}
+.detail-container .foto-container .foto-banner {
+  max-width: 320px;
+  max-height: 350px;
+}
+.detail-container .foto-container .btn-foto {
+  background-color: #63ACC3;
+  color: #fff;
+}
+.detail-container .foto-container .btn-foto:hover {
+  background-color: #26748c;
+  border: 1px solid #f4e8da;
+}
+.detail-container .deskripsi-container .box {
+  color: #71A446;
+  max-width: 120px;
+}
+.detail-container .deskripsi-container .sinopsis {
+  margin-top: -6px;
+  font-size: 16px;
+  line-height: 22px;
+}
+.detail-container .deskripsi-container .table.table-information {
+  margin-top: -6px;
+}/*# sourceMappingURL=detail.css.map */

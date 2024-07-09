@@ -1,0 +1,19 @@
+.sukses h1 {
+  font-weight: 600;
+  font-size: 26px;
+}
+.sukses p {
+  font-weight: 500;
+  font-size: 18px;
+  -moz-columns: #b1b1b1;
+       columns: #b1b1b1;
+}
+.sukses .btn-homepage {
+  border-radius: 4px;
+  background-color: #8D8071;
+  color: #fff;
+}
+.sukses .btn-homepage:hover {
+  background-color: #ad9d8a;
+  color: #fff;
+}/*# sourceMappingURL=sukses.css.map */

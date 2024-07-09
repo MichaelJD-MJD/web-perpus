@@ -1,0 +1,53 @@
+.book-container {
+  background-color: #fcf8f5;
+  min-width: 100px;
+  margin-left: -10px;
+}
+.book-container .content-popular {
+  color: #63acc3;
+  font-weight: bold;
+}
+.book-container .btn-view-all {
+  color: #63acc3;
+  font-weight: 500;
+}
+.book-container .btn-view-all:hover {
+  color: #addae8;
+}
+.book-container .book-card {
+  width: 100%;
+  height: 100%;
+  transition: transform 0.3s ease-in-out;
+  position: relative;
+}
+.book-container .book-card .book-image {
+  max-width: 100%;
+  max-height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.book-container .book-card .card-body .card-title {
+  font-size: 16px;
+  color: #63acc3;
+}
+.book-container .book-card .card-body .card-text {
+  color: #23120b;
+}
+.book-container .book-card .card-body .btn-detail {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  z-index: 2;
+  border: 1px solid #ccc; /* Border untuk tombol */ /* Bentuk tombol bulat */
+  padding: 2px; /* Spasi dalam tombol */
+  transition: background-color 0.3s; /* Transisi untuk efek hover */
+}
+.book-container .book-card .card-body .btn-detail:hover {
+  background-color: rgb(255, 255, 255); /* Warna latar belakang saat dihover */
+}
+.book-container .book-card:hover {
+  transform: scale(1.05); /* Efek membesar saat dihover */
+  position: relative;
+  z-index: 1;
+  outline: 2px solid #63acc3;
+}/*# sourceMappingURL=content.css.map */

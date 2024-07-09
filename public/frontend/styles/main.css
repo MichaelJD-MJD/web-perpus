@@ -1,0 +1,271 @@
+body {
+  background-color: #EFE5DA;
+  font-family: "Assistant", sans-serif;
+  color: #23120b;
+}
+
+.navbar-ku {
+  background-color: #EFE5DA;
+}
+.navbar-ku .navbar-brand {
+  color: #23120b;
+}
+.navbar-ku .navbar-container {
+  margin: 0;
+  padding: 0;
+}
+.navbar-ku .navbar-container .search-input {
+  border-radius: 10px;
+  background-color: #F5EFE9;
+}
+.navbar-ku .navbar-container .search-input::-moz-placeholder {
+  background-color: #F5EFE9;
+  opacity: 1;
+}
+.navbar-ku .navbar-container .search-input::placeholder {
+  background-color: #F5EFE9;
+  opacity: 1;
+}
+@media (min-width: 992px) {
+  .navbar-ku .navbar-container .search-input {
+    max-width: 300px;
+  }
+}
+.navbar-ku .dropdown-menu {
+  position: absolute;
+  z-index: 10;
+}
+.navbar-ku .btn-login, .navbar-ku .btn-register {
+  color: #23120b;
+}
+.navbar-ku .btn-login:hover, .navbar-ku .btn-register:hover {
+  color: #884123;
+}
+
+.content {
+  height: 85vh;
+}
+
+.sidebar .sidebar-list .sidebar-item {
+  max-width: 500px;
+}
+.sidebar .sidebar-list .sidebar-item:hover {
+  background-color: #f4e8da;
+}
+.sidebar .sidebar-list .active {
+  font-weight: 300;
+  background-color: #F5EFE9;
+}
+
+.book-container {
+  background-color: #fcf8f5;
+  min-width: 100px;
+  margin-left: -10px;
+}
+.book-container .content-popular {
+  color: #63acc3;
+  font-weight: bold;
+}
+.book-container .btn-view-all {
+  color: #63acc3;
+  font-weight: 500;
+}
+.book-container .btn-view-all:hover {
+  color: #addae8;
+}
+.book-container .book-card {
+  width: 100%;
+  height: 100%;
+  transition: transform 0.3s ease-in-out;
+  position: relative;
+}
+.book-container .book-card .book-image {
+  max-width: 100%;
+  max-height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.book-container .book-card .card-body .card-title {
+  font-size: 16px;
+  color: #63acc3;
+}
+.book-container .book-card .card-body .card-text {
+  color: #23120b;
+}
+.book-container .book-card .card-body .btn-detail {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  z-index: 2;
+  border: 1px solid #ccc; /* Border untuk tombol */ /* Bentuk tombol bulat */
+  padding: 2px; /* Spasi dalam tombol */
+  transition: background-color 0.3s; /* Transisi untuk efek hover */
+}
+.book-container .book-card .card-body .btn-detail:hover {
+  background-color: rgb(255, 255, 255); /* Warna latar belakang saat dihover */
+}
+.book-container .book-card:hover {
+  transform: scale(1.05); /* Efek membesar saat dihover */
+  position: relative;
+  z-index: 1;
+  outline: 2px solid #63acc3;
+}
+
+.detail-container {
+  background-color: #fcf8f5;
+  min-width: 100px;
+  margin-left: -10px;
+}
+.detail-container .foto-container {
+  border: 2px solid #f4e8da;
+}
+.detail-container .foto-container .foto-banner {
+  max-width: 320px;
+  max-height: 350px;
+}
+.detail-container .foto-container .btn-foto {
+  background-color: #63ACC3;
+  color: #fff;
+}
+.detail-container .foto-container .btn-foto:hover {
+  background-color: #26748c;
+  border: 1px solid #f4e8da;
+}
+.detail-container .deskripsi-container .box {
+  color: #71A446;
+  max-width: 120px;
+}
+.detail-container .deskripsi-container .sinopsis {
+  margin-top: -6px;
+  font-size: 16px;
+  line-height: 22px;
+}
+.detail-container .deskripsi-container .table.table-information {
+  margin-top: -6px;
+}
+
+.category-container {
+  background-color: #fcf8f5;
+  min-width: 100px;
+  margin-left: -10px;
+}
+.category-container .kategori-list .kategori-item {
+  background-color: #f9f5f0;
+  color: #63acc3;
+}
+.category-container .kategori-list .kategori-item a {
+  text-decoration: none;
+}
+.category-container .kategori-list .kategori-item a:hover {
+  font-weight: 500;
+  border-bottom: 1px solid #63acc3;
+}
+.category-container .kategori-list .kategori-item .active {
+  font-weight: 500;
+  border-bottom: 1px solid #63acc3;
+}
+.category-container .book-card {
+  width: 100%;
+  height: 100%;
+  transition: transform 0.3s ease-in-out;
+  position: relative;
+}
+.category-container .book-card .book-image {
+  max-width: 100%;
+  max-height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.category-container .book-card .card-body .card-title {
+  font-size: 16px;
+  color: #63acc3;
+}
+.category-container .book-card .card-body .card-text {
+  color: #23120b;
+}
+.category-container .book-card .card-body .btn-detail {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  z-index: 2;
+  border: 1px solid #ccc; /* Border untuk tombol */ /* Bentuk tombol bulat */
+  padding: 2px; /* Spasi dalam tombol */
+  transition: background-color 0.3s; /* Transisi untuk efek hover */
+}
+.category-container .book-card .card-body .btn-detail:hover {
+  background-color: rgb(255, 255, 255); /* Warna latar belakang saat dihover */
+}
+.category-container .book-card:hover {
+  transform: scale(1.05); /* Efek membesar saat dihover */
+  position: relative;
+  z-index: 1;
+  outline: 2px solid #63acc3;
+}
+
+.favorite-container {
+  background-color: #fcf8f5;
+  min-width: 100px;
+  margin-left: -10px;
+}
+.favorite-container .table-favorite .td-image {
+  vertical-align: center;
+  max-width: 50px;
+}
+.favorite-container .table-favorite .favorite-row {
+  max-height: 100px;
+}
+.favorite-container .table-favorite .favorite-image {
+  max-width: 100px;
+  height: auto;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+@media (max-width: 758px) {
+  .favorite-container .table-favorite .td-image {
+    max-width: 100px;
+  }
+}
+
+.mybook-container {
+  background-color: #fcf8f5;
+  min-width: 100px;
+  margin-left: -10px;
+}
+.mybook-container .table-pinjam .td-image {
+  vertical-align: center;
+  max-width: 50px;
+}
+.mybook-container .table-pinjam .pinjam-row {
+  max-height: 100px;
+}
+.mybook-container .table-pinjam .pinjam-image {
+  max-width: 100px;
+  height: auto;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+@media (max-width: 758px) {
+  .mybook-container .table-pinjam .td-image {
+    max-width: 100px;
+  }
+}
+
+.sukses h1 {
+  font-weight: 600;
+  font-size: 26px;
+}
+.sukses p {
+  font-weight: 500;
+  font-size: 18px;
+  -moz-columns: #b1b1b1;
+       columns: #b1b1b1;
+}
+.sukses .btn-homepage {
+  border-radius: 4px;
+  background-color: #8D8071;
+  color: #fff;
+}
+.sukses .btn-homepage:hover {
+  background-color: #ad9d8a;
+  color: #fff;
+}/*# sourceMappingURL=main.css.map */

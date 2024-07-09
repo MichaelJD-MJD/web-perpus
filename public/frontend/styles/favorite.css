@@ -1,0 +1,23 @@
+.favorite-container {
+  background-color: #fcf8f5;
+  min-width: 100px;
+  margin-left: -10px;
+}
+.favorite-container .table-favorite .td-image {
+  vertical-align: center;
+  max-width: 50px;
+}
+.favorite-container .table-favorite .favorite-row {
+  max-height: 100px;
+}
+.favorite-container .table-favorite .favorite-image {
+  max-width: 100px;
+  height: auto;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+@media (max-width: 758px) {
+  .favorite-container .table-favorite .td-image {
+    max-width: 100px;
+  }
+}/*# sourceMappingURL=favorite.css.map */

@@ -1,0 +1,23 @@
+.sukses{
+    h1 {
+        font-weight: 600;
+        font-size: 26px;
+    }
+
+    p {
+        font-weight: 500;
+        font-size: 18px;
+        columns: #b1b1b1;
+    }
+
+    .btn-homepage {
+        border-radius: 4px;
+        background-color: #8D8071;
+        color: #fff;
+
+        &:hover {
+            background-color: #ad9d8a;
+            color: #fff;
+        }
+    }
+}

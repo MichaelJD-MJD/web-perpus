@@ -1,0 +1,23 @@
+.mybook-container {
+  background-color: #fcf8f5;
+  min-width: 100px;
+  margin-left: -10px;
+}
+.mybook-container .table-pinjam .td-image {
+  vertical-align: center;
+  max-width: 50px;
+}
+.mybook-container .table-pinjam .pinjam-row {
+  max-height: 100px;
+}
+.mybook-container .table-pinjam .pinjam-image {
+  max-width: 100px;
+  height: auto;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+@media (max-width: 758px) {
+  .mybook-container .table-pinjam .td-image {
+    max-width: 100px;
+  }
+}/*# sourceMappingURL=mybook.css.map */

@@ -1,0 +1,14 @@
+.content {
+  height: 85vh;
+}
+
+.sidebar .sidebar-list .sidebar-item {
+  max-width: 500px;
+}
+.sidebar .sidebar-list .sidebar-item:hover {
+  background-color: #f4e8da;
+}
+.sidebar .sidebar-list .active {
+  font-weight: 300;
+  background-color: #F5EFE9;
+}/*# sourceMappingURL=sidebar.css.map */
